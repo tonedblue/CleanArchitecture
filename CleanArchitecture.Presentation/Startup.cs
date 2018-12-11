@@ -25,11 +25,8 @@ namespace CleanArchitecture.Presentation
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            
-            // Author Mediatr
-            services.AddMediatR(typeof(GetAllAuthorsQuery).GetTypeInfo().Assembly);
-            services.AddMediatR(typeof(GetAllAuthorsQuery).GetTypeInfo().Assembly);
-            services.AddMediatR(typeof(GetAllAuthorsQuery).GetTypeInfo().Assembly);
+
+            services.AddMediatR();
 
             services.AddTransient<IAuthorRepository, AuthorRepository>();
             services.AddTransient<IBookRepository, BookRepository>();
