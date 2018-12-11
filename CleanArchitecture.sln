@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Domain", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{5B4A174F-FD00-4DEB-8A21-94E7DAA395AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infastructure", "CleanArchitecture.Infastructure\CleanArchitecture.Infastructure.csproj", "{29E88B42-BA26-4AFF-A02A-F2801D180BFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infastructure", "CleanArchitecture.Infastructure\CleanArchitecture.Infastructure.csproj", "{29E88B42-BA26-4AFF-A02A-F2801D180BFB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Persistence", "CleanArchitecture.Persistence\CleanArchitecture.Persistence.csproj", "{52C15A32-E513-4EFA-AFA7-8FE7F2778EEC}"
 EndProject
@@ -38,6 +38,10 @@ Global
 		{52C15A32-E513-4EFA-AFA7-8FE7F2778EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C15A32-E513-4EFA-AFA7-8FE7F2778EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C15A32-E513-4EFA-AFA7-8FE7F2778EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD9F832-1933-44A2-892D-A954ED9BF88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD9F832-1933-44A2-892D-A954ED9BF88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD9F832-1933-44A2-892D-A954ED9BF88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD9F832-1933-44A2-892D-A954ED9BF88A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
