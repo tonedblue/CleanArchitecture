@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infastruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Persistence", "CleanArchitecture.Persistence\CleanArchitecture.Persistence.csproj", "{52C15A32-E513-4EFA-AFA7-8FE7F2778EEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Presentation", "CleanArchitecture.Presentation\CleanArchitecture.Presentation.csproj", "{FCD9F832-1933-44A2-892D-A954ED9BF88A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52C15A32-E513-4EFA-AFA7-8FE7F2778EEC} = {52C15A32-E513-4EFA-AFA7-8FE7F2778EEC}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
